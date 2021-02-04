@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ProjectSDL</string>
+
+    <string-array name="Gynaecologist">
+
+        <item>Dr.Arun Phadnis</item>
+        <item>Dr.Rama Kulkarni</item>
+        <item>Dr.Praniti Chaphekar</item>
+
+    </string-array>
+
+    <string-array name="Orthopedic">
+
+        <item>Dr.Sourabh kulkarni</item>
+        <item>Dr.Prathmesh Deshpande</item>
+        <item>Dr.Dhruva Deshpande</item>
+
+    </string-array>
+
+    <string-array name="OPD">
+
+        <item>Dr.Arun Phadnis</item>
+        <item>Dr.Mukesh Batra</item>
+        <item>Dr.Parvati Halbe</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

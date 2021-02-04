@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OPD">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#68c1a0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Summary"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/docAvail"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="150dp"
+        android:background="#038555"
+        android:fontFamily="@font/aclonica"
+        android:text="BOOK"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

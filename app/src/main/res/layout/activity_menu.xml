@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/welcomeMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/aclonica"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Who are you looking for?"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/rbopd"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginBottom="20dp"
+            android:text="OPD"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbgynaec"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginBottom="20dp"
+            android:text="Gynaecologist"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbortho"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="Orthopedic"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Summary"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:textSize="18sp" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+        <Button
+            android:id="@+id/mSummary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="26dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="@font/aclonica"
+            android:text="Summary"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Appointment"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Appointment"
+            android:layout_width="96dp"
+            android:layout_height="33dp"
+            android:layout_marginBottom="27dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="27dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/aclonica"
+            android:text="Appointment"
+            android:textColor="@android:color/background_light"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
